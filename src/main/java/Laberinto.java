@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -100,6 +99,7 @@ public class Laberinto extends JPanel implements KeyListener {
         }
         if (maze[playerRow][playerCol] == 2) {
             JOptionPane.showMessageDialog(null, "Has ganado");
+            System.exit(0);
         }
         repaint();
     }
