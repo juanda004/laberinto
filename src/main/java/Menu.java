@@ -46,7 +46,7 @@ public class Menu extends JFrame {
     }
     public static void main(String[] args) {
         JFrame Menu = new Menu ("Laberinto Game");
-        Menu.setSize(600, 600); // Set the size of the JFrame to 600x600 pixels
+        Menu.setSize(600, 600);
         Menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
